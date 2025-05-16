@@ -1,0 +1,97 @@
+.heroSection {
+  width: 100%;
+  padding: 120px 20px 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.heading {
+  font-size: 64px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #171717;
+}
+
+.subheading {
+  font-size: 18px;
+  line-height: 32px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.storeButtons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.appStore,
+.googlePlay {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #171717;
+  border-radius: 10px;
+  padding: 12px 20px;
+  min-width: 180px;
+  height: 60px;
+  gap: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.appStore:hover,
+.googlePlay:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 30px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.smallText {
+  font-size: 13px;
+  color: #171717;
+  font-weight: 500;
+}
+
+.largeText {
+  font-size: 22px;
+  font-weight: 600;
+  color: #171717;
+}
+
+.googleLogo {
+  width: 105px;
+  height: auto;
+  margin-top: 2px;
+}
